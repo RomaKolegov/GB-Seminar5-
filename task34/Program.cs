@@ -41,4 +41,4 @@ void printArray(int[] array)
 int[] array = getArray(5,100,1000);
 printArray(array);
 int sumOfDigits = sumOfEvenNumberDigit(array);
-Console.WriteLine($"Сумма четных чисел массива равна {sumOfDigits}");
+Console.WriteLine($"Количество четных чисел массива равно {sumOfDigits}");
