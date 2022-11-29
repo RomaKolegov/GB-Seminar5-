@@ -9,7 +9,7 @@ int[] getArray(int length, int start, int end)
     int[] array = new int[length];
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(start, end);
+        array[i] = new Random().Next(start, end + 1);
     }
     return array;
 }
